@@ -1,0 +1,106 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Young Serif', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    width: 50%;
+    max-width: 800px;
+    padding: 20px;
+
+    border-radius: 8px;
+
+    background-color: #fff;
+}
+
+.image-omelette {
+    border-radius: 30px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.details {
+    font-weight: 100;
+}
+
+.t1 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    margin-left: 18px;
+
+}
+
+.time1 {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.tit {
+    color: hsl(14, 45%, 36%);
+    font-size: x-large;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+.p_table {
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 15px;
+}
+
+.line {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+
+    margin: 30px 0;
+    width: 100%;
+}
+
+.table {
+    margin-top: 20px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.nutrition-table td {
+    padding: 10px 20px;
+}
+
+table.nutrition-table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+table.nutrition-table tr:last-child {
+    border-bottom: none;
+}
+
+.cal {
+    color: hsl(14, 45%, 36%);
+}
